@@ -36,9 +36,9 @@ const RecipeContainer = () => {
   return (
     <div>
       <div className={style.container}>
-        {currentRecipe.map((recipe) => (
+        {currentRecipe.map((recipe, index) => (
           <AddCard
-            key={recipe.id} {...recipe}
+            key={index} {...recipe}
           />
         ))}
       </div>
