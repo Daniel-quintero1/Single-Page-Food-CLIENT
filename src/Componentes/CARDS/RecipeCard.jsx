@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import style from "./AddRecipeCard.module.css";
-//este componente debe mostrar la info de cada receta mapeado, pero ademas
-//darnos un link para ir al detalle del usuario
 const AddCard = ({
   id,
   title,

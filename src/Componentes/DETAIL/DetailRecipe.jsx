@@ -29,7 +29,6 @@ const Detail = () => {
       dispatach(CleanDetail);
     };
   }, [dispatach, id]);
-  //REVISAR PORQUE NO RENDERIZA INTRUCCIONES
   return (
     <div>
       <h1>Recipe For: {id}</h1>

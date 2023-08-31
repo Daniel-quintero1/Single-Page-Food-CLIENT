@@ -33,7 +33,6 @@ const RecipeContainer = () => {
     const endIndex = startIndex + 9
     setCurrentCard(showRecipe.slice(startIndex, endIndex))
   }, [currentPage, showRecipe])
-  console.log(currentRecipe);
   return (
     <div>
       <div className={style.container}>

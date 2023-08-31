@@ -14,7 +14,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SearchBar from "../NAVBAR/SearchBar";
 import RecipeContainer from "../CARD.CONTAINER/RecipeContainer";
-
+// import styles from './Home.module.css'
 // aqui finaliza lo de paginado y se agrega al div
 const Home = () => {
   const dispatch = useDispatch();

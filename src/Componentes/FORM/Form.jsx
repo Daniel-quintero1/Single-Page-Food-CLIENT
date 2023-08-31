@@ -9,7 +9,6 @@ import { useDispatch, useSelector } from "react-redux";
 import {  getDiet } from "../../Redux/Actions.js";
 
 const Form = () => {
-  //debemos tener un input
   const dispatch = useDispatch();
   const dietas = useSelector((state) => state.dietas);
   useEffect(()=> {
